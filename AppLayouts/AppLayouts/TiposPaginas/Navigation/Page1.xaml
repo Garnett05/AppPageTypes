@@ -22,6 +22,8 @@
             <Button Text="Go to page 2" Clicked="GoToPage2" />
 
             <Button Text="Call modal" Clicked="GoToModal" />
+
+            <Button Text="Call master" Clicked="GoToMaster" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:master="clr-namespace:AppLayouts.TiposPaginas.Master"
+             mc:Ignorable="d"
+             x:Class="AppLayouts.TiposPaginas.Master.Master">
+
+    <MasterDetailPage.Master>
+        <!--menu-->
+        <ContentPage Title="Menu">
+            <StackLayout>
+                <Button Text="Page 1" Clicked="GoToPage1"/>
+                <Button Text="Page 2" Clicked="GoToPage2"/>
+                <Button Text="Content page" Clicked="GoToContentPage"/>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <!--conteúdo-->
+        <master:Content />
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

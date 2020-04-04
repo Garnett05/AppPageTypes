@@ -25,5 +25,9 @@ namespace AppLayouts.TiposPaginas.Navigation
         {
             Navigation.PushModalAsync(new Modal());
         }
+        private void GoToMaster(object sender, EventArgs args)
+        {
+            App.Current.MainPage = new Master.Master();
+        }
     }
 }
