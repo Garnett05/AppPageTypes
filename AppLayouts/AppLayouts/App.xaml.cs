@@ -10,7 +10,7 @@ namespace AppLayouts
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new AppLayouts.TiposPaginas.Carousel.Introduction();
         }
 
         protected override void OnStart()

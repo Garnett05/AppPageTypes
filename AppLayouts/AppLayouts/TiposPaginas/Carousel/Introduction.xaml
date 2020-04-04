@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppLayouts.TiposPaginas.Carousel.Introduction"
+             xmlns:TiposPaginas="clr-namespace:AppLayouts.TiposPaginas.Carousel"> <!-- Namespace de onde as outras páginas estão -->
+    
+    <!-- Abaixo, as 3 páginas estão sendo chamadas para seram apresentadas no carousel page-->
+    <TiposPaginas:Page1/>
+    <TiposPaginas:Page2/>
+    <TiposPaginas:Page3/>
+</CarouselPage>
