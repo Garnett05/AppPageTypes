@@ -4,16 +4,13 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="AppLayouts.TiposPaginas.Carousel.Page3"
-             BackgroundColor="LightSkyBlue">
+             x:Class="AppLayouts.TiposPaginas.Navigation.Page2"
+             Title="Title navigation page 2">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand">
-            <Label Text="Tipos de Página" 
-                TextColor="Blue"                 
+        <StackLayout>
+            <Label Text="I'm the second page"
+                VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <StackLayout HeightRequest="150" WidthRequest="150">
-                <Button ImageSource="play.png" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Clicked="ChangePage"/>
-            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

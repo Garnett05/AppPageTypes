@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppLayouts.TiposPaginas.Navigation.Page1"
+             Title="Title navigation page">
+    <!--<ContentPage.Title>
+        Title navigation page  -Alternativa para definir o título da navigation page, ou qualquer outro parâmetro da navigation page
+    </ContentPage.Title>-->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Pesquisa"/>
+        <ToolbarItem Text="Detalhes"/>
+        <ToolbarItem IconImageSource="celtics.jpg" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="I'm a content page"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Go to page 2" Clicked="GoToPage2" />
+
+            <Button Text="Call modal" Clicked="GoToModal" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -16,5 +16,10 @@ namespace AppLayouts.TiposPaginas.Carousel
         {
             InitializeComponent();
         }
+
+        private void ChangePage(object sender, EventArgs args)
+        {
+            App.Current.MainPage = new NavigationPage(new Navigation.Page1()) { BarBackgroundColor = Color.Green};
+        }
     }
 }
