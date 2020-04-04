@@ -9,7 +9,7 @@
         <StackLayout BackgroundColor="LightSkyBlue">
             <StackLayout HeightRequest="50" BackgroundColor="LightBlue">
                 <Label Text="I'm the title" />
-                <Button Text="X" Clicked="CloseModal"/>
+                <Button Text="Close" Clicked="CloseModal"/>
             </StackLayout>
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 

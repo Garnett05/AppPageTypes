@@ -14,7 +14,9 @@ namespace AppLayouts.TiposPaginas.Tabbed
     {
         public Page1()
         {
-            InitializeComponent();
+            InitializeComponent(); //carrega o XAML
+
+            Children.Add(new NavigationPage(new TiposPaginas.Navigation.Page1()) { Title = "Item 3"});
         }
     }
 }

@@ -3,7 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:nav="clr-namespace:AppLayouts.TiposPaginas.Navigation"
              mc:Ignorable="d"
              x:Class="AppLayouts.TiposPaginas.Tabbed.Page1">
-    
+    <NavigationPage Title="Item 1">
+        <x:Arguments>
+            <nav:Page1/>
+        </x:Arguments>
+    </NavigationPage>    
+    <nav:Page2/>    
+
 </TabbedPage>

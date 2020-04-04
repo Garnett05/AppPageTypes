@@ -11,9 +11,14 @@
             <Label Text="Tipos de Página" 
                 TextColor="Blue"                 
                 HorizontalOptions="CenterAndExpand" />
-            <StackLayout HeightRequest="150" WidthRequest="150">
-                <Button ImageSource="play.png" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Clicked="ChangePage"/>
+            <StackLayout HeightRequest="150" WidthRequest="150" Margin="10">
+                <Label Text="Go to navigation page" HorizontalOptions="CenterAndExpand"/>
+                <Button ImageSource="play.png" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Clicked="ChangeToNavigationPage"/>                
             </StackLayout>
+            <StackLayout HeightRequest="150" WidthRequest="150" Margin="10">
+                <Label Text="Go to tabbed page" HorizontalOptions="CenterAndExpand"/>
+                <Button ImageSource="play.png" BackgroundColor="Transparent" HorizontalOptions="Fill" VerticalOptions="Fill" Clicked="ChangeToTabbedPage"/>
+            </StackLayout>            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
