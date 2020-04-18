@@ -1,4 +1,4 @@
 # App Page Types
-Working with some XF layouts
+Working with some XF page types
 
 ![](AppPageTypes.gif)
