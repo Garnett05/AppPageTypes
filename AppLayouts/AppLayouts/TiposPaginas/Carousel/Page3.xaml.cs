@@ -19,10 +19,10 @@ namespace AppLayouts.TiposPaginas.Carousel
 
         private void ChangeToNavigationPage(object sender, EventArgs args)
         {
-            App.Current.MainPage = new NavigationPage(new Navigation.Page1()) { BarBackgroundColor = Color.Green};            
+            App.Current.MainPage = new NavigationPage(new Navigation.Page1()) { BarBackgroundColor = Color.Green};
         }
         private void ChangeToTabbedPage(object sender, EventArgs args)
-        {            
+        {
             App.Current.MainPage = new Tabbed.Page1();
         }
     }
